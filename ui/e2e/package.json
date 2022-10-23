@@ -1,15 +1,16 @@
 {
-  "name": "todo-functional-tests",
+  "name": "todo-e2e-tests",
   "version": "1.0.0",
   "description": "",
   "main": "playwright.config.js",
   "scripts": {
-    "test:functional": "npx playwright test"
+    "test:e2e": "npx playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.27.1"
+    "@playwright/test": "^1.27.1",
+    "mongodb": "^4.11.0"
   }
 }
